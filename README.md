@@ -46,3 +46,5 @@ Dashboard: https://officesync.vokrix.co
 Vercel: officesync
 Railway: officesync
 Cloudflare: officesync.vokrix.co
+
+Landing: https://vokrix.co/officesync
