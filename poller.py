@@ -80,7 +80,7 @@ def poll():
                             "customer_id": customer_id,
                             "title": rec.get("title", "Untitled"),
                             "status": rec.get("status", "missing:critical"),
-                            "details": json.dumps(rec.get("details", {})),
+                            "details": rec.get("details", {}),
                             "source_file_path": input_file_path,
                             "due_date": rec.get("due_date")
                         }
